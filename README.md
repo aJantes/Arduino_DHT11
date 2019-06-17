@@ -1,6 +1,13 @@
 # Arduino_DHT11
 my custom DHT11 library
 
+# 主要函数
 
-在 bpibit 板子上运行测试代码存在的问题是，无法循环检测。
-原因是在程序运行过程中，某些地方卡住了无法运行
+void cjt_DHT11_Init()
+- 对 DHT11 进行初始化
+
+unsigned char cjt_DHT11_Read_Bit()
+- 读取一个 bit 数据
+
+void cjt_DHT11_Read()
+- 采集一次数据

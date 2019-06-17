@@ -22,5 +22,5 @@ void loop()
   Serial.print(dht11.dht11_humt);
   Serial.println();
 
-  delay(1000);
+  delay(1300);
 }
